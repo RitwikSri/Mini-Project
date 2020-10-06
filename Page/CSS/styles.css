@@ -499,3 +499,27 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@media(max-width: 600px)
+{
+	.portfolio-item-individual{
+		padding: 0 2em 2em;
+		max-width: 1300px;
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+		grid-gap: 2em;
+		margin: 0 auto;
+	}
+
+	.project-description{
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		grid-column: 1/-1;
+	}
+
+	.portfolioImage{
+		
+		display: none;
+	}
+}
