@@ -415,6 +415,8 @@ header{
 .portfolio_item{
 	background: var(--clr-accent);
 	overflow: hidden;
+	width: 300px;
+	height: 300px;
 }
 
 .portfolio_img{
